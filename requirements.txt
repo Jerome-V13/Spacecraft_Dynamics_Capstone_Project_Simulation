@@ -1,0 +1,21 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Mars Orbital Simulation — Python dependencies
+# ──────────────────────────────────────────────────────────────────────────────
+# Install everything with:
+#   pip install -r requirements.txt
+#
+# Python 3.10+ recommended.
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Core scientific computing — used across all modules for matrix math,
+# cross products, linear algebra, and numerical integration (RK4).
+numpy>=1.24.0
+
+# 3-D rendering engine — scene graph, lighting, camera, HUD, and all
+# geometry primitives used by Visual_Simulation.py.
+Panda3D>=1.10.13
+
+# Optional: GLB/glTF model loader for the satellite mesh.
+# The simulation falls back to a UV sphere if this is not installed.
+# Remove this line if you only use .obj models or the fallback sphere.
+panda3d-gltf>=0.13
