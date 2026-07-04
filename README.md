@@ -21,7 +21,7 @@ This repository contains a real-time 3D visualization of the final Capstone Proj
 <img width="1282" height="262" alt="Plots" src="https://github.com/user-attachments/assets/52780a2a-2b59-4460-ace6-729e6ba8b157" />
 
 ---
-# Main Scripts
+## Main Scripts
 Visual_Simulation.py - Real-time 3D visualisation of Mars orbital mechanics using the Panda3D engine.
 
 DCM.py - Direction Cosine Matrix primitives (M1, M3 rotation matrices).
