@@ -91,8 +91,7 @@ The simulation expects the following files in the same directory as `Visual_Simu
 | `Mars.jpg` | Mars surface texture | Yes |
 | `satellite.glb` | 3-D spacecraft model (GLB format) | No — falls back to `satellite.obj`, then a sphere |
 | `satellite.obj` | 3-D spacecraft model (OBJ format) | No — falls back to a sphere |
- 
-If neither model file is found, the spacecraft is rendered as a plain white sphere. The simulation is otherwise fully functional.
+| `NotoSans-VariableFont_wdth,wght.ttf` | UI font | No — falls back to Panda3D default, but Greek/subscript characters in the telemetry plots (σ, ω) may not render correctly |
  
 ---
 
